@@ -139,7 +139,6 @@ BOOL IsRunningWithAdministrativePrivileges()
 		{
 			isAdministrator = Elevation.TokenIsElevated;
 		}
-		
 	}
 
 	CloseHandle(hToken);
